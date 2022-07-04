@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hassanmomin/utils/colors.dart';
+import 'package:hassanmomin/utils/constants.dart';
 import 'package:hassanmomin/utils/styles.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
@@ -99,7 +100,7 @@ class _NavBarState extends State<NavBar> {
       width: 110,
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/logo.png'),
+          image: AssetImage(logo),
         ),
       ),
     );
