@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hassanmomin/utils/colors.dart';
 import 'package:hassanmomin/utils/constants.dart';
-import 'package:hassanmomin/utils/styles.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class NavBar extends StatefulWidget {
@@ -100,11 +99,11 @@ class _NavBarState extends State<NavBar> {
         child: Text(
           txt,
           style: TextStyle(
-            color: Color(
-              0xff3A3A3A,
-            ),
-            fontSize: 18.0,
-          ),
+              color: Color(
+                0xff3A3A3A,
+              ),
+              fontSize: 18.0,
+              fontWeight: FontWeight.w500),
         ),
       ),
     );

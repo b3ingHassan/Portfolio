@@ -13,3 +13,6 @@ const String samsung = "assets/images/samsung.png";
 const String dashboard = "assets/images/dashboard.png";
 const String vector1 = "assets/images/vector1.png";
 const String vector2 = "assets/images/vector2.png";
+const String android = "assets/images/android.png";
+const String web = "assets/images/web.png";
+const String uiux = "assets/images/uiux.png";
