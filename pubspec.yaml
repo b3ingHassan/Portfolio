@@ -74,13 +74,13 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: HindSiliguri
+    - family: Montserrat
       fonts:
-        - asset: assets/fonts/HindSiliguri-Bold.ttf
-        - asset: assets/fonts/HindSiliguri-Light.ttf
-        - asset: assets/fonts/HindSiliguri-Medium.ttf
-        - asset: assets/fonts/HindSiliguri-Regular.ttf
-        - asset: assets/fonts/HindSiliguri-SemiBold.ttf 
+        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+
 
   #   - family: Trajan Pro
   #     fonts:

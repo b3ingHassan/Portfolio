@@ -33,59 +33,54 @@ class _Container1State extends State<Container1> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Track your \nexpenses to \nsave money",
+                    "Designing & Developing\nBest Quality Products.",
                     style: TextStyle(
-                        fontSize: w! / 20,
-                        fontWeight: FontWeight.bold,
-                        height: 1.2),
+                      fontSize: w! / 35,
+                      fontWeight: FontWeight.bold,
+                      height: 1.2,
+                      color: Color(0xff3A3A3A),
+                    ),
                   ),
                   SizedBox(
-                    height: 10.0,
+                    height: 24.0,
                   ),
                   Text(
-                    'Helps you to organize your income and expenses',
+                    'We help companies to transform their\npotential ideas into a real product.',
                     style: TextStyle(
-                      color: Colors.grey.shade400,
+                      color: Color(0xffA6A6A6),
                       fontSize: 20.0,
                     ),
                   ),
                   SizedBox(
-                    height: 30.0,
+                    height: 24.0,
                   ),
-                  Row(
-                    children: [
-                      Container(
-                        height: 45.0,
-                        child: ElevatedButton.icon(
-                          style: ButtonStyle(
-                            backgroundColor: MaterialStateProperty.all(
-                              AppColors.primary,
-                            ),
-                          ),
-                          onPressed: null,
-                          icon: Icon(
-                            Icons.arrow_drop_down,
-                            color: Colors.white,
-                          ),
-                          label: Text(
-                            "Try free Demo",
-                            style: TextStyle(
+                  Container(
+                    height: 60,
+                    width: 200,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(4.0),
+                      color: AppColors.primary,
+                    ),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          "Explore Services",
+                          style: TextStyle(
                               color: Colors.white,
-                            ),
-                          ),
+                              fontSize: 14.0,
+                              fontWeight: FontWeight.w500),
                         ),
-                      ),
-                      SizedBox(
-                        width: 20.0,
-                      ),
-                      Text(
-                        'Web, iOs and Android',
-                        style: TextStyle(
-                          color: Colors.grey.shade400,
-                          fontSize: 20.0,
+                        SizedBox(
+                          width: 8,
                         ),
-                      )
-                    ],
+                        Icon(
+                          Icons.arrow_circle_right_outlined,
+                          color: Colors.white,
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),

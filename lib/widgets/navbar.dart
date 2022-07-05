@@ -32,7 +32,12 @@ class _NavBarState extends State<NavBar> {
           Icon(
             Icons.menu,
           ),
-          navLogo()
+          Text(
+            "Hassan Momin",
+            style: TextStyle(
+              color: Color(0xff3994FF),
+            ),
+          ),
         ],
       ),
     );
@@ -48,26 +53,36 @@ class _NavBarState extends State<NavBar> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          navLogo(),
+          Text(
+            "Hassan Momin",
+            style: TextStyle(
+                fontSize: 24,
+                color: Color(0xff3A3A3A),
+                fontWeight: FontWeight.bold),
+          ),
           Row(
             children: [
-              navButton('Features'),
-              navButton('About Us'),
-              navButton('Prizing'),
-              navButton('Feedback'),
+              navButton('Home'),
+              navButton('Services'),
+              navButton('Skills'),
+              navButton('Portfolio'),
             ],
           ),
           Container(
-            height: 45,
-            child: ElevatedButton(
-              onPressed: () {},
+            height: 50,
+            width: 150,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(4.0),
+              color: AppColors.primary,
+            ),
+            child: Center(
               child: Text(
-                'Request a Demo',
+                "Contact",
                 style: TextStyle(
-                  color: AppColors.primary,
-                ),
+                    color: Colors.white,
+                    fontSize: 14.0,
+                    fontWeight: FontWeight.w500),
               ),
-              style: borderdButtonStyle,
             ),
           )
         ],
