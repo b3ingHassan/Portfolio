@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:hassanmomin/pages/home.dart';
 import 'package:hassanmomin/utils/colors.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(
+      MyApp(),
+    );
 
 class MyApp extends StatelessWidget {
   @override

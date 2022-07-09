@@ -128,7 +128,7 @@ class _Container1State extends State<Container1> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text(
-                  "Track your \nexpenses to \nsave money",
+                  "Designing & Developing\nBest Quality Products.",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: w! / 10,
@@ -139,7 +139,7 @@ class _Container1State extends State<Container1> {
                   height: 20.0,
                 ),
                 Text(
-                  'Helps you to organize \nyour income and expenses',
+                  'We help companies to transform their\npotential ideas into a real product.',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.grey.shade400,
@@ -147,41 +147,38 @@ class _Container1State extends State<Container1> {
                   ),
                 ),
                 SizedBox(
-                  height: 30.0,
+                  height: 24.0,
                 ),
                 Container(
-                  height: 45.0,
-                  child: ElevatedButton.icon(
-                    style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(
-                        AppColors.primary,
+                  height: 60,
+                  width: 200,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(4.0),
+                    color: AppColors.primary,
+                  ),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Explore Services",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 14.0,
+                            fontWeight: FontWeight.w500),
                       ),
-                    ),
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.arrow_drop_down,
-                      color: Colors.white,
-                    ),
-                    label: Text(
-                      "Try free Demo",
-                      style: TextStyle(
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Icon(
+                        Icons.arrow_circle_right_outlined,
                         color: Colors.white,
-                      ),
-                    ),
+                      )
+                    ],
                   ),
                 ),
                 SizedBox(
-                  height: 20.0,
-                ),
-                Text(
-                  'Web, iOs and Android',
-                  style: TextStyle(
-                    color: Colors.grey.shade400,
-                    fontSize: 16.0,
-                  ),
-                ),
-                SizedBox(
-                  height: 20.0,
+                  height: 24,
                 )
               ],
             ),

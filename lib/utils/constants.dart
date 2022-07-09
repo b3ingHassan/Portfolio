@@ -16,3 +16,7 @@ const String vector2 = "assets/images/vector2.png";
 const String android = "assets/images/android.png";
 const String web = "assets/images/web.png";
 const String uiux = "assets/images/uiux.png";
+const String figma = "assets/images/figma.png";
+const String xd = "assets/images/xd.png";
+const String flutter = "assets/images/flutter.png";
+const String fbase = "assets/images/friebase.png";

@@ -11,16 +11,18 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     w = MediaQuery.of(context).size.width;
     h = MediaQuery.of(context).size.height;
-    return Scaffold(
-      backgroundColor: Colors.white,
-      body: SingleChildScrollView(
-        child: Container(
-          child: Column(
-            children: [
-              NavBar(),
-              Container1(),
-              Container2(),
-            ],
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Container(
+            child: Column(
+              children: [
+                NavBar(),
+                Container1(),
+                Container2(),
+              ],
+            ),
           ),
         ),
       ),
