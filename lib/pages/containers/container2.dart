@@ -54,32 +54,27 @@ class _Container2State extends State<Container2> {
           SizedBox(
             height: 34,
           ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              ServiceConatiner(
-                android,
-                "Have an app idea in mind or want to \ngrow your business in mobile world, we'll \nhelp you do it",
-                Color(0xffDFEEFF),
-              ),
-              SizedBox(
-                height: 14,
-              ),
-              ServiceConatiner(
-                web,
-                "Have an app idea in mind or want to \ngrow your business in mobile world, we'll \nhelp you do it",
-                Color(0xffFFE7DF),
-              ),
-              SizedBox(
-                height: 14,
-              ),
-              ServiceConatiner(
-                uiux,
-                "Have an app idea in mind or want to \ngrow your business in mobile world, we'll \nhelp you do it",
-                Color(0xffE3F8E3),
-              ),
-            ],
-          )
+          ServiceConatiner(
+            android,
+            "Have an app idea in mind or want to \ngrow your business in mobile world, we'll \nhelp you do it",
+            Color(0xffDFEEFF),
+          ),
+          SizedBox(
+            height: 14,
+          ),
+          ServiceConatiner(
+            web,
+            "Have an app idea in mind or want to \ngrow your business in mobile world, we'll \nhelp you do it",
+            Color(0xffFFE7DF),
+          ),
+          SizedBox(
+            height: 14,
+          ),
+          ServiceConatiner(
+            uiux,
+            "Have an app idea in mind or want to \ngrow your business in mobile world, we'll \nhelp you do it",
+            Color(0xffE3F8E3),
+          ),
         ],
       ),
     );

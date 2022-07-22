@@ -99,11 +99,12 @@ class _NavBarState extends State<NavBar> {
         child: Text(
           txt,
           style: TextStyle(
-              color: Color(
-                0xff3A3A3A,
-              ),
-              fontSize: 18.0,
-              fontWeight: FontWeight.w500),
+            color: Color(
+              0xff3A3A3A,
+            ),
+            fontSize: 18.0,
+            fontWeight: FontWeight.w500,
+          ),
         ),
       ),
     );
